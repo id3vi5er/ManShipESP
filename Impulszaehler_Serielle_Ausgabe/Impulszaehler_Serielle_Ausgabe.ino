@@ -1,5 +1,5 @@
 /*
- ImpulszĂ¤hler
+ Impulszaehler
  Gibt die Impulse pro Sekunde des Spannungsignals 
  an Pin X aus wenn Signal auf LOW geht mit INTERNAL_PULLUP
 */
