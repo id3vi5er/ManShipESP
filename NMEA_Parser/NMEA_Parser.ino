@@ -1,9 +1,5 @@
 /*
- * NMEAParser library.
- * 
- * Parsing example.
- * 
- * 2 handlers are added and 2 sentences are parsed
+ *NMEA Parser fur MWV Daten
  */
 #include <NMEAParser.h>
 
