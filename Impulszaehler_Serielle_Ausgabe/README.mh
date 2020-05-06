@@ -1,4 +1,6 @@
-# Impulszähler zur Messung des Durchflusses einer Wasserleitung mittels "Bio-Tech VZS-005-AL"
+# Impulszähler zur Messung des Durchflusses einer Wasserleitung 
+
+mittels "Bio-Tech VZS-005-AL"
 
 Dieser Durchflusszähler gibt pro Liter (H2O bei 20°C) 1800 Impulse per NPN Transistor-Ausgang aus.
 
