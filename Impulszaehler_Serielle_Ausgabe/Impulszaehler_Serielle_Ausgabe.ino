@@ -4,12 +4,12 @@
  an Pin X aus 
 */
 int pin = 7;                          //Anschluss des Impulsgebers (max 5VDC/3,3VDC nach Arduino Modell
-unsigned long N;                      //Anzahl der Impulse
-//unsigned long T;                    //Zeitintervall in us (Mikrosekunden)
-unsigned long zeitNow;                //Startzeit
-unsigned long messZeit = 10;           //Messzeit in Sekunden
-unsigned long T = messZeit*1000000;   //10.000.000 Mikrosekunden 1^6 (1e) 
 double ILiter = 1800;                 //Angabe des Herstellers für ausgegebene Impulse pro Liter
+
+unsigned long messZeit = 10;          //Messzeit in Sekunden
+unsigned long N;                      //Anzahl der Impulse
+unsigned long zeitNow;                //Startzeit
+unsigned long T = messZeit*1000000;   //Messzeit in µS umwandeln
 double durchfluss;                    //Berechneter Durchfluss pro MessZeit
 double v; //rechenvariable
 double f;
