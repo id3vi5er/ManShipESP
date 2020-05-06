@@ -1,4 +1,4 @@
-# NMEA 0183 Parser für MWV Daten wie:
+# NMEA 0183 Parser für MWV/XDR Daten wie:
 
 MWV - Wind Speed and Angle
 
@@ -12,3 +12,18 @@ MWV - Wind Speed and Angle
   3) Wind Speed
   4) Wind Speed Units, K/M/N
   5) Status, A = Data Valid
+
+
+XDR - Transducer Measurement
+
+        1 2   3 4            n
+        | |   | |            |
+ $--XDR,a,x.x,a,c--c, ..... *hh<CR><LF>
+
+ Field Number: 
+  1) Transducer Type
+  2) Measurement Data
+  3) Units of measurement
+  4) Name of transducer
+  x) More of the same
+  n) Checksum
