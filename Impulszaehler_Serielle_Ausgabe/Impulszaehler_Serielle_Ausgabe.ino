@@ -1,12 +1,12 @@
 /*
  ImpulszĂ¤hler
  Gibt die Impulse pro Sekunde des Spannungsignals 
- an Pin X aus 
+ an Pin X aus wenn Signal auf LOW geht mit INTERNAL_PULLUP
 */
-int pin = 7;                          //Anschluss des Impulsgebers (max 5VDC/3,3VDC nach Arduino Modell
+int pin = 7;                          //Anschluss des Impulsgebers (max 5VDC/3,3VDC nach Arduino Modell)
 double ILiter = 1800;                 //Angabe des Herstellers für ausgegebene Impulse pro Liter
-
 unsigned long messZeit = 10;          //Messzeit in Sekunden
+
 unsigned long N;                      //Anzahl der Impulse
 unsigned long zeitNow;                //Startzeit
 unsigned long T = messZeit*1000000;   //Messzeit in µS umwandeln
