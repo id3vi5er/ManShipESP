@@ -102,7 +102,7 @@ void loop()
         Serial.println(latitude, 8);
         longitude = gps.location.lng(); //float
         Serial.println(longitude, 8);
-        groundspeed = gps.speed.kmph();  //double
+        groundspeed = gps.speed.knots();  //double
         Serial.println(groundspeed);
         coursedegree = gps.course.deg();
 
@@ -117,7 +117,7 @@ void loop()
         delay(200);
         char groundspeedString[8];
         dtostrf(groundspeed, 2, 1, groundspeedString);
-        client.publish("/nav/groundspeed", groundspeedString);
+        client.publish("/nav/groundspeed_knots", groundspeedString);
         delay(200);
         char coursedegreeString[8];
         dtostrf(coursedegree, 3, 0, coursedegreeString);
