@@ -1,4 +1,4 @@
-/* Author: N. Rattensperger ------- MQ7 Gassensoren
+/*  MQ7 Gassensoren - CO
  *  Beschreibung:
  *  Ein Programm zum Auslesen von 2 MQ7 Gassensoren, Mess-Ausfallsicherheit durch 2 Sensoren,
  *  LCD Anzeige der aktuellen Messwerte und Alarmierung durch LEDs
